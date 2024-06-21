@@ -1,0 +1,566 @@
+{
+    "schemaVersion": 36,
+    "addons": [
+        {
+            "id": "addon@darkreader.org",
+            "syncGUID": "{007612a9-4f54-4c8e-b185-221e5ef11e3d}",
+            "version": "4.9.86",
+            "type": "extension",
+            "loader": null,
+            "updateURL": null,
+            "installOrigins": null,
+            "manifestVersion": 2,
+            "optionsURL": null,
+            "optionsType": null,
+            "optionsBrowserStyle": true,
+            "aboutURL": null,
+            "defaultLocale": {
+                "name": "Dark Reader",
+                "description": "Dark mode for every website. Take care of your eyes, use dark theme for night and daily browsing.",
+                "creator": "Alexander Shutau",
+                "developers": null,
+                "translators": null,
+                "contributors": null
+            },
+            "visible": true,
+            "active": true,
+            "userDisabled": false,
+            "appDisabled": false,
+            "embedderDisabled": false,
+            "applyBackgroundUpdates": 1,
+            "softDisabled": false,
+            "foreignInstall": false,
+            "strictCompatibility": true,
+            "seen": true,
+            "dependencies": [],
+            "incognito": "spanning",
+            "userPermissions": {
+                "permissions": [
+                    "alarms",
+                    "contextMenus",
+                    "storage",
+                    "tabs",
+                    "theme"
+                ],
+                "origins": [
+                    "<all_urls>"
+                ]
+            },
+            "optionalPermissions": {
+                "permissions": [],
+                "origins": []
+            },
+            "requestedPermissions": {
+                "permissions": [],
+                "origins": []
+            },
+            "icons": {
+                "16": "icons/dr_16.png",
+                "48": "icons/dr_48.png",
+                "128": "icons/dr_128.png"
+            },
+            "iconURL": null,
+            "blocklistState": 0,
+            "blocklistURL": null,
+            "startupData": null,
+            "hidden": false,
+            "location": "app-profile"
+        },
+        {
+            "id": "uBlock0@raymondhill.net",
+            "syncGUID": "{fac9b7f8-f766-4786-8408-9314fceeb2a6}",
+            "version": "1.58.0",
+            "type": "extension",
+            "loader": null,
+            "updateURL": null,
+            "installOrigins": null,
+            "manifestVersion": 2,
+            "optionsURL": "dashboard.html",
+            "optionsType": 3,
+            "optionsBrowserStyle": false,
+            "aboutURL": null,
+            "defaultLocale": {
+                "name": "uBlock Origin",
+                "description": "Finally, an efficient blocker. Easy on CPU and memory.",
+                "creator": "Raymond Hill & contributors",
+                "developers": null,
+                "translators": null,
+                "contributors": null
+            },
+            "visible": true,
+            "active": true,
+            "userDisabled": false,
+            "appDisabled": false,
+            "embedderDisabled": false,
+            "applyBackgroundUpdates": 1,
+            "softDisabled": false,
+            "foreignInstall": false,
+            "strictCompatibility": true,
+            "targetApplications": [
+                {
+                    "id": "toolkit@mozilla.org",
+                    "minVersion": "78.0",
+                    "maxVersion": null
+                }
+            ],
+            "targetPlatforms": [],
+            "seen": true,
+            "dependencies": [],
+            "incognito": "spanning",
+            "userPermissions": {
+                "permissions": [
+                    "alarms",
+                    "dns",
+                    "menus",
+                    "privacy",
+                    "storage",
+                    "tabs",
+                    "unlimitedStorage",
+                    "webNavigation",
+                    "webRequest",
+                    "webRequestBlocking"
+                ],
+                "origins": [
+                    "<all_urls>",
+                    "http://*/*",
+                    "https://*/*",
+                    "file://*/*",
+                    "https://easylist.to/*",
+                    "https://*.fanboy.co.nz/*",
+                    "https://filterlists.com/*",
+                    "https://forums.lanik.us/*",
+                    "https://github.com/*",
+                    "https://*.github.io/*",
+                    "https://github.com/uBlockOrigin/*",
+                    "https://ublockorigin.github.io/*",
+                    "https://*.reddit.com/r/uBlockOrigin/*"
+                ]
+            },
+            "optionalPermissions": {
+                "permissions": [],
+                "origins": []
+            },
+            "requestedPermissions": {
+                "permissions": [],
+                "origins": []
+            },
+            "icons": {
+                "16": "img/ublock.svg",
+                "32": "img/ublock.svg",
+                "48": "img/ublock.svg",
+                "64": "img/ublock.svg",
+                "96": "img/ublock.svg"
+            },
+            "iconURL": null,
+            "blocklistState": 0,
+            "blocklistURL": null,
+            "startupData": null,
+            "hidden": false,
+            "location": "app-profile"
+        },
+        {
+            "id": "{446900e4-71c2-419f-a6a7-df9c091e268b}",
+            "syncGUID": "{0233f229-a9bb-40d7-9d94-99a630ea4aa3}",
+            "version": "2024.6.2",
+            "type": "extension",
+            "loader": null,
+            "updateURL": null,
+            "installOrigins": null,
+            "manifestVersion": 2,
+            "optionsURL": null,
+            "optionsType": null,
+            "optionsBrowserStyle": true,
+            "aboutURL": null,
+            "defaultLocale": {
+                "name": "Bitwarden Password Manager",
+                "description": "At home, at work, or on the go, Bitwarden easily secures all your passwords, passkeys, and sensitive information",
+                "creator": "Bitwarden Inc.",
+                "homepageURL": "https://bitwarden.com",
+                "developers": null,
+                "translators": null,
+                "contributors": null
+            },
+            "visible": true,
+            "active": true,
+            "userDisabled": false,
+            "appDisabled": false,
+            "embedderDisabled": false,
+            "applyBackgroundUpdates": 1,
+            "softDisabled": false,
+            "foreignInstall": false,
+            "strictCompatibility": true,
+            "targetApplications": [
+                {
+                    "id": "toolkit@mozilla.org",
+                    "minVersion": "91.0",
+                    "maxVersion": "*"
+                }
+            ],
+            "targetPlatforms": [],
+            "seen": true,
+            "dependencies": [],
+            "incognito": "spanning",
+            "userPermissions": {
+                "permissions": [
+                    "tabs",
+                    "contextMenus",
+                    "storage",
+                    "unlimitedStorage",
+                    "clipboardRead",
+                    "clipboardWrite",
+                    "idle",
+                    "webRequest",
+                    "webRequestBlocking",
+                    "webNavigation"
+                ],
+                "origins": [
+                    "<all_urls>",
+                    "*://*/*",
+                    "file:///*",
+                    "https://lastpass.com/export.php"
+                ]
+            },
+            "optionalPermissions": {
+                "permissions": [
+                    "nativeMessaging"
+                ],
+                "origins": []
+            },
+            "requestedPermissions": {
+                "permissions": [],
+                "origins": []
+            },
+            "icons": {
+                "16": "images/icon16.png",
+                "32": "images/icon32.png",
+                "48": "images/icon48.png",
+                "96": "images/icon96.png",
+                "128": "images/icon128.png"
+            },
+            "iconURL": null,
+            "blocklistState": 0,
+            "blocklistURL": null,
+            "startupData": null,
+            "hidden": false,
+            "location": "app-profile"
+        },
+        {
+            "id": "visionary-bold-colorway@mozilla.org",
+            "syncGUID": "{798a7a98-9463-46af-ab37-c2841aec2a1e}",
+            "version": "2.1",
+            "type": "theme",
+            "loader": null,
+            "updateURL": null,
+            "installOrigins": null,
+            "manifestVersion": 2,
+            "optionsURL": null,
+            "optionsType": null,
+            "optionsBrowserStyle": true,
+            "aboutURL": null,
+            "defaultLocale": {
+                "name": "Visionary – Bold",
+                "creator": "Mozilla",
+                "developers": null,
+                "translators": null,
+                "contributors": null
+            },
+            "visible": true,
+            "active": true,
+            "userDisabled": false,
+            "appDisabled": false,
+            "embedderDisabled": false,
+            "applyBackgroundUpdates": 1,
+            "softDisabled": false,
+            "foreignInstall": false,
+            "strictCompatibility": true,
+            "locales": [],
+            "targetApplications": [
+                {
+                    "id": "toolkit@mozilla.org",
+                    "minVersion": null,
+                    "maxVersion": null
+                }
+            ],
+            "targetPlatforms": [],
+            "seen": true,
+            "dependencies": [],
+            "userPermissions": null,
+            "optionalPermissions": null,
+            "requestedPermissions": null,
+            "icons": {
+                "32": "icon.svg"
+            },
+            "iconURL": null,
+            "blocklistState": 0,
+            "blocklistURL": null,
+            "startupData": null,
+            "hidden": false,
+            "location": "app-profile"
+        },
+        {
+            "id": "innovator-bold-colorway@mozilla.org",
+      "syncGUID": "{1132133f-915a-4022-86a8-806544eba479}",
+            "version": "2.1",
+            "type": "theme",
+            "loader": null,
+            "updateURL": null,
+            "installOrigins": null,
+            "manifestVersion": 2,
+            "optionsURL": null,
+            "optionsType": null,
+            "optionsBrowserStyle": true,
+            "aboutURL": null,
+            "defaultLocale": {
+                "name": "Visionary – Bold",
+                "creator": "Mozilla",
+                "developers": null,
+                "translators": null,
+                "contributors": null
+            },
+            "visible": true,
+            "active": true,
+            "userDisabled": false,
+            "appDisabled": false,
+            "embedderDisabled": false,
+            "applyBackgroundUpdates": 1,
+            "softDisabled": false,
+            "foreignInstall": false,
+            "strictCompatibility": true,
+            "locales": [],
+            "targetApplications": [
+                {
+                    "id": "toolkit@mozilla.org",
+                    "minVersion": null,
+                    "maxVersion": null
+                }
+            ],
+            "targetPlatforms": [],
+            "seen": true,
+            "dependencies": [],
+            "userPermissions": null,
+            "optionalPermissions": null,
+            "requestedPermissions": null,
+            "icons": {
+                "32": "icon.svg"
+            },
+            "iconURL": null,
+            "blocklistState": 0,
+            "blocklistURL": null,
+            "startupData": null,
+            "hidden": false,
+            "location": "app-profile"
+        },
+        {
+"id": "activist-bold-colorway@mozilla.org",
+      "syncGUID": "{ae31acc4-cfa7-4e59-8f61-334ca52f5fe0}",
+            "version": "2.1",
+            "type": "theme",
+            "loader": null,
+            "updateURL": null,
+            "installOrigins": null,
+            "manifestVersion": 2,
+            "optionsURL": null,
+            "optionsType": null,
+            "optionsBrowserStyle": true,
+            "aboutURL": null,
+            "defaultLocale": {
+                "name": "Visionary – Bold",
+                "creator": "Mozilla",
+                "developers": null,
+                "translators": null,
+                "contributors": null
+            },
+            "visible": true,
+            "active": true,
+            "userDisabled": false,
+            "appDisabled": false,
+            "embedderDisabled": false,
+            "applyBackgroundUpdates": 1,
+            "softDisabled": false,
+            "foreignInstall": false,
+            "strictCompatibility": true,
+            "locales": [],
+            "targetApplications": [
+                {
+                    "id": "toolkit@mozilla.org",
+                    "minVersion": null,
+                    "maxVersion": null
+                }
+            ],
+            "targetPlatforms": [],
+            "seen": true,
+            "dependencies": [],
+            "userPermissions": null,
+            "optionalPermissions": null,
+            "requestedPermissions": null,
+            "icons": {
+                "32": "icon.svg"
+            },
+            "iconURL": null,
+            "blocklistState": 0,
+            "blocklistURL": null,
+            "startupData": null,
+            "hidden": false,
+            "location": "app-profile"
+        },
+        {
+"id": "expressionist-bold-colorway@mozilla.org",
+      "syncGUID": "{2554e480-1b82-4808-9e13-3790664e8e4f}",
+            "version": "2.1",
+            "type": "theme",
+            "loader": null,
+            "updateURL": null,
+            "installOrigins": null,
+            "manifestVersion": 2,
+            "optionsURL": null,
+            "optionsType": null,
+            "optionsBrowserStyle": true,
+            "aboutURL": null,
+            "defaultLocale": {
+                "name": "Visionary – Bold",
+                "creator": "Mozilla",
+                "developers": null,
+                "translators": null,
+                "contributors": null
+            },
+            "visible": true,
+            "active": true,
+            "userDisabled": false,
+            "appDisabled": false,
+            "embedderDisabled": false,
+            "applyBackgroundUpdates": 1,
+            "softDisabled": false,
+            "foreignInstall": false,
+            "strictCompatibility": true,
+            "locales": [],
+            "targetApplications": [
+                {
+                    "id": "toolkit@mozilla.org",
+                    "minVersion": null,
+                    "maxVersion": null
+                }
+            ],
+            "targetPlatforms": [],
+            "seen": true,
+            "dependencies": [],
+            "userPermissions": null,
+            "optionalPermissions": null,
+            "requestedPermissions": null,
+            "icons": {
+                "32": "icon.svg"
+            },
+            "iconURL": null,
+            "blocklistState": 0,
+            "blocklistURL": null,
+            "startupData": null,
+            "hidden": false,
+            "location": "app-profile"
+        },
+        {
+"id": "dreamer-bold-colorway@mozilla.org",
+      "syncGUID": "{8fc6e3ff-f283-4523-9c6c-25c81f4659f7}",
+            "version": "2.1",
+            "type": "theme",
+            "loader": null,
+            "updateURL": null,
+            "installOrigins": null,
+            "manifestVersion": 2,
+            "optionsURL": null,
+            "optionsType": null,
+            "optionsBrowserStyle": true,
+            "aboutURL": null,
+            "defaultLocale": {
+                "name": "Visionary – Bold",
+                "creator": "Mozilla",
+                "developers": null,
+                "translators": null,
+                "contributors": null
+            },
+            "visible": true,
+            "active": true,
+            "userDisabled": false,
+            "appDisabled": false,
+            "embedderDisabled": false,
+            "applyBackgroundUpdates": 1,
+            "softDisabled": false,
+            "foreignInstall": false,
+            "strictCompatibility": true,
+            "locales": [],
+            "targetApplications": [
+                {
+                    "id": "toolkit@mozilla.org",
+                    "minVersion": null,
+                    "maxVersion": null
+                }
+            ],
+            "targetPlatforms": [],
+            "seen": true,
+            "dependencies": [],
+            "userPermissions": null,
+            "optionalPermissions": null,
+            "requestedPermissions": null,
+            "icons": {
+                "32": "icon.svg"
+            },
+            "iconURL": null,
+            "blocklistState": 0,
+            "blocklistURL": null,
+            "startupData": null,
+            "hidden": false,
+            "location": "app-profile"
+        },
+        {
+"id": "playmaker-bold-colorway@mozilla.org",
+      "syncGUID": "{01a0194e-c062-41ae-8359-254eb4289bd5}",
+            "version": "2.1",
+            "type": "theme",
+            "loader": null,
+            "updateURL": null,
+            "installOrigins": null,
+            "manifestVersion": 2,
+            "optionsURL": null,
+            "optionsType": null,
+            "optionsBrowserStyle": true,
+            "aboutURL": null,
+            "defaultLocale": {
+                "name": "Visionary – Bold",
+                "creator": "Mozilla",
+                "developers": null,
+                "translators": null,
+                "contributors": null
+            },
+            "visible": true,
+            "active": true,
+            "userDisabled": false,
+            "appDisabled": false,
+            "embedderDisabled": false,
+            "applyBackgroundUpdates": 1,
+            "softDisabled": false,
+            "foreignInstall": false,
+            "strictCompatibility": true,
+            "locales": [],
+            "targetApplications": [
+                {
+                    "id": "toolkit@mozilla.org",
+                    "minVersion": null,
+                    "maxVersion": null
+                }
+            ],
+            "targetPlatforms": [],
+            "seen": true,
+            "dependencies": [],
+            "userPermissions": null,
+            "optionalPermissions": null,
+            "requestedPermissions": null,
+            "icons": {
+                "32": "icon.svg"
+            },
+            "iconURL": null,
+            "blocklistState": 0,
+            "blocklistURL": null,
+            "startupData": null,
+            "hidden": false,
+            "location": "app-profile"
+        }
+    ]
+}
